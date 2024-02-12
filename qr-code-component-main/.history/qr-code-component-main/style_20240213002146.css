@@ -1,0 +1,120 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:375px) and (max-width:1439px) {
+
+    .screen {
+        width: 375px;
+        height: 667px;
+        position: relative;
+        background: hsl(212, 45%, 89%)
+    }
+
+    .card {
+        width: 375px;
+        height: 667px;
+        position: relative;
+        background: hsl(0, 0%, 100%);
+    }
+
+    .imageQrCode1 {
+        width: 252px;
+        height: 252px;
+        left: 62px;
+        top: 113.50px;
+        position: absolute;
+        border-radius: 15px
+    }
+
+    .bold {
+        width: 285px;
+        height: 43px;
+        left: 45px;
+        top: 394px;
+        position: absolute;
+        text-align: center;
+        color: #1F3251;
+        font-size: 15px;
+        font-family: Outfit;
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .normal {
+        width: 259px;
+        height: 63px;
+        left: 62px;
+        top: 465px;
+        position: absolute;
+        text-align: center;
+        color: #7B879D;
+        font-size: 15px;
+        font-family: Outfit;
+        font-weight: 400;
+        word-wrap: break-word
+    }
+}
+
+@media (min-width:1440px) {
+    .screen {
+        width: 1440px;
+        height: 1024px;
+        position: relative;
+        background: hsl(212, 45%, 89%)
+    }
+
+    .card {
+        width: 285px;
+        height: 470px;
+        left: 554px;
+        top: 217px;
+        position: absolute;
+        background: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        backdrop-filter: blur(4px)
+    }
+
+    .imageQrCode1 {
+        width: 252px;
+        height: 252px;
+        left: 571px;
+        top: 232px;
+        position: absolute;
+        border-radius: 15px
+    }
+
+    .bold {
+        width: 285px;
+        height: 43px;
+        left: 554px;
+        top: 512.50px;
+        position: absolute;
+        text-align: center;
+        color: #1F3251;
+        font-size: 15px;
+        font-family: Outfit;
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .normal {
+        width: 259px;
+        height: 63px;
+        left: 571px;
+        top: 583.50px;
+        position: absolute;
+        text-align: center;
+        color: #7B879D;
+        font-size: 15px;
+        font-family: Outfit;
+        font-weight: 400;
+        word-wrap: break-word
+    }
+
+}

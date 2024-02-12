@@ -1,0 +1,15 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.Desktop1440 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: #DAE4F0
+}
